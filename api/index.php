@@ -72,9 +72,9 @@ function delete_account() {
 
 function send_email() {
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'send_email') {
-        require_once 'PHPMailer/PHPMailer.php';
-        require_once 'PHPMailer/SMTP.php';
-        require_once 'PHPMailer/Exception.php';
+        require_once 'PHPMailer.php';
+        require_once 'SMTP.php';
+        require_once 'Exception.php';
         
         $accounts = load_accounts();
         $account_id = $_POST['account_id'] ?? null;
