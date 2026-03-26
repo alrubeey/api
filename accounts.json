@@ -1,0 +1,26 @@
+{
+  "accounts": [
+    {
+      "id": "507f1f77bcf86cd799439011",
+      "name": "My Gmail Account",
+      "email": "your-email@gmail.com",
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": "587",
+      "username": "your-email@gmail.com",
+      "password": "your-app-password",
+      "use_ssl": true,
+      "from_name": "John Smith"
+    },
+    {
+      "id": "507f1f77bcf86cd799439012",
+      "name": "Company Email",
+      "email": "your-email@company.com",
+      "smtp_host": "mail.company.com",
+      "smtp_port": "587",
+      "username": "your-email@company.com",
+      "password": "company-password",
+      "use_ssl": true,
+      "from_name": "John Smith"
+    }
+  ]
+}
